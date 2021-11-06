@@ -1,3 +1,3 @@
 # Coding
 
-learning python, c++, html, java
+learning python, c++, html, css, javascript
