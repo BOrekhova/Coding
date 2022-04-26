@@ -1,3 +1,3 @@
 # Coding
 
-learning python, c++, html, css
+notes about python, c++, html, css
