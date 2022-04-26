@@ -4,7 +4,6 @@ Variables
 
 include <string> // to work with strings
 
-
 int main () 
 {
     int x;              // for integer; -2^31 <= int <= 2^31
