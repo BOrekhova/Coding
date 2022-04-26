@@ -2,6 +2,7 @@ Variables
 
 // a variable is a container for a particular set of bits or type of data
 
+#include <iostream>
 include <string> // to work with strings
 
 int main () 
