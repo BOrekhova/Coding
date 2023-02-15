@@ -1,4 +1,3 @@
-#include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
 
@@ -20,8 +19,8 @@ int main()
         std::cout << data.first << data.second << std::endl;
     }
 
-    v1.clear() // удаляет все элементы
-        v1.shrink_to_fit(); // очистить выделенную память для следующего элемента
+    // v1.clear(); // удаляет все элементы
+    // v1.shrink_to_fit(); // очистить выделенную память для следующего элемента
 
     std::cout << "first element: " << v1.front() << std::endl;
     std::cout << "last element: " << v1.back() << std::endl;
