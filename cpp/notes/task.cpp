@@ -13,5 +13,6 @@ int main()
             temp.push_back(0);
         }
         data.push_back(temp);
+        temp.shrink_to_fit();
     }
 }
