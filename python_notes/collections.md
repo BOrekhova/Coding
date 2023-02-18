@@ -60,4 +60,4 @@ list.append(i) <sub>to add an element</sub>
 list.extend(another list / set) <sub>expanding the list with a string or a set</sub>  
 list[i] = 17 <sub>to change the element</sub>  
 list[start:end] <sub>list’s cut</sub>  
-del list[i], del[ ::2] <sub>removing the elements<//sub>
+del list[i], del[ ::2] <sub>removing the elements</sub>
