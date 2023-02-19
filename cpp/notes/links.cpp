@@ -13,7 +13,8 @@ int main()
 {
     int val = 11;
     int& val_ref = val;
-    val_ref = 10; // если я меняю ссылку, то я меняю и переменную
+    val_ref = 10; // change the link >> change the element
+    std::cout << val_ref << std::endl;
 
     // int* ptr_val = &val;
     // int& val_ref = *ptr_val;

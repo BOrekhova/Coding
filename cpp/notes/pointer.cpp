@@ -1,8 +1,7 @@
 #include <iostream>
 
-// Pointers
+// Pointers is an address of the object
 // pointers are objects, they occupy memory
-// pointer is an address of object
 
 int main()
 {
@@ -11,5 +10,5 @@ int main()
     int* y = nullptr; // type -- pointer at int // nullptr -- 0 pointer
     int* t = &x; // t saves the address of x
     std::cout << *t; // dereferencing t >> print x
-    int* ptr_value = new int; // зарезервировать память
+    int* ptr_value = new int; // to reserve the memory
 }

@@ -1,14 +1,26 @@
 #include <iostream>
 
-// class is a user-defined data type, which holds its own data members and member functions
-// do not forget the prototype of the function
-// private > protected > public
-
 ////////////////////////////////
 
 // Object-oriented programming (OOP)
 // OOP = objects + classes
-// Incapsulation is the first principle of OOP
+
+// Three principles of OOP:
+
+// Encapsulation: object only exposes the selected information.
+// Abstraction hides complex details to reduce complexity.
+// Inheritance (наследование) enables one class’s structure and functions to be transferred down the hierarchy.
+// Polymorphism: entities (сущности) can have more than one form.
+
+////////////////////////////////
+
+// class is a user-defined data type, which holds its own data members and member functions
+// private > protected > public
+
+////////////////////////////////
+
+// Constructor: MyClass()
+// Destructor: ~MyClass()
 
 ////////////////////////////////
 
