@@ -33,3 +33,5 @@ parseInt(str);  // string -> integer
 let num = String(null); // "null"
 nums.toString(); // "100"
 null.toString() // ERROR!
+
+console.log(String.fromCharCode(63)); // ?
