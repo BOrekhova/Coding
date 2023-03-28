@@ -1,4 +1,4 @@
-Data Types:
+/* Data Types:
 
 	1. String
 
@@ -18,7 +18,8 @@ Data Types:
 		
 	3. Time and Date
 
-		DATE - дата
-		TIME - время
-		DATETIME - дата с временем
+		DATE
+		TIME
+		DATETIME
         TIMESTAMP
+*/
