@@ -1,8 +1,0 @@
-const list = [];
-
-for (let value in list) {
-    for (let i=2; i<value; i++) {
-        if (value%i == 0) break;
-        
-    }
-}

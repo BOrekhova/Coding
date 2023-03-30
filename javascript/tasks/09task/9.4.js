@@ -4,13 +4,10 @@ const list_2 = [];
 const list = [];
 
 for (let value of list_1) {
-    list.push(value);
+    list.push(Math.pow(value, 2));
 }
 for (let value of list_2) {
-    list.push(value);
-}
-for (let value of list) {
-    value = pow(value, 2);
+    list.push(Math.pow(value, 2));
 }
 
 console.log(list);
