@@ -11,27 +11,40 @@ console.log(`first string
 second string`);
 
 // concatenation (summ of strings)
-console.log("hi, " + "petr"); // hi, petr
-
 const name = "petr";
 const greeting1 = "hi, " + name + "!"; // hi, petr!
-const greeting = `hi, ${name}!`;
+const greeting2 = `hi, ${name}!`;
 
-// methods
+// methods and functions
 let str = "hi";
-alert(str.length); // length of the string // 2
-alert(str.charAt(1)); // index // i // you can go beyound
-alert(str[0]); // index // h // you can not go beyond
+let num = 2;
+
+str.length; // length of the string // 2
+str.charAt(1); // index // i // you can go beyound
+str[0]; // index // h // you can not go beyond
 
 str.toLowerCase(); // all symbols are lowercase
 str.toUpperCase(); // all symbols are uppercase
 
-str.trim(); // to get fid of unnecessary space
+str.trim(); // to get rid of unnecessary space
 
-parseFloat(str); // string -> float
-parseInt(str);  // string -> integer
-let num = String(null); // "null"
-nums.toString(); // "100"
-null.toString() // ERROR!
+String(num); // "2"
+num.toString(); // "100"
 
-console.log(String.fromCharCode(63)); // ?
+str.concat(", world!"); // hi, world! 
+
+str.includes("i", 1); // true
+str.startsWith("hi"); // true
+str.endsWith("i"); // true
+str.indexOf("hi"); // 0
+str.lastIndexOf("hi"); // 1
+
+str.slice(0, 2); // "h" // str.slice(start (, end))
+str.substring(0, 2);
+
+str.repeat(3); // hihihi
+
+
+
+
+

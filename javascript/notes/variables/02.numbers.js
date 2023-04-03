@@ -31,15 +31,19 @@ let a2 = 1;
 let b2 = a2++;
 console.log(a2, b2); // 2 1
 
-// functions
+// methods and functions
 
 let str = '42px'
 let num = 23.69;
-Number.isFinite(Infinity); // is it finite // false
-Number.isNaN(str); // true
+
+isFinite(num); // is it finite
+isNaN(num); // is it a number
 
 let nums = Number("100"); // 100
 let blnum = Number(false); // 0
 let ab = Number({}); // NaN
 let b = Number("Hello"); // NaN
 let c = Number(undefined); // NaN
+
+parseFloat(str); // string -> float // "22 km" -> 22
+parseInt(str);  // string -> integer
