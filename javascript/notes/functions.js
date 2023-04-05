@@ -1,7 +1,11 @@
 // FUNCTION 
-
+// Функция может считаться предикатом только если она возвращает boolean.
 // 1way. declaration
 // you can call function even before its declaration
+
+const printMotto = () => {
+  console.log('Winter is coming');
+}
 
 function printHello(name) {
     console.log(`Привет, ${name}!`);
