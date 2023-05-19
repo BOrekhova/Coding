@@ -2,8 +2,7 @@
 
 int main()
 {
-    int strings, n;
-    std::cin >> strings >> n;
-    int page = strings / n;
-        
+    int k, n;
+    std::cin >> k >> n;
+    std::cout << (n - 1) / k + 1 << ' ' << (n - 1) % k + 1;
 }

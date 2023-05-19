@@ -4,5 +4,5 @@ int main()
 {
     int n, m;
     std::cin >> n >> m;
-    std::cout << -(-m / n);
+    std::cout << (m + n - 1) / n;
 }
