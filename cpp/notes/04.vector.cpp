@@ -6,6 +6,7 @@ using namespace std;
 // Vector is a dynamic array
 // index
 // vector is a template
+// for the only data type
 
 int main()
 {
