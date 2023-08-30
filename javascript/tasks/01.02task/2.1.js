@@ -1,1 +1,0 @@
-let year_of_foundation = 1841;

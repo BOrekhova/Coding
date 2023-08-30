@@ -1,1 +1,0 @@
-console.log('Имя: "' + obj.name + '" Фамилия: \'' + obj.last_name + "' Возраст: " + obj.age);
